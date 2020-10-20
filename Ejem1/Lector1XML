@@ -11,7 +11,7 @@ import javax.xml.stream.XMLStreamReader;
 
 public class Lector1 {
     public static final String DOCUMENTO_XML = "D:\\Cloud\\Mega\\UFV\\DIS\\2-JSON _ XML\\Projects\\XML\\EjemploXML\\src\\com\\carlos\\parking.xml";
-    public static final String ELEMENTO_PLAZA = "plaza";
+    public static final String ELEMENTO_PLAZA = "";
 
     public int numeroDePlazas() throws FileNotFoundException, IOException {
         int numeroPlazas = 0;
