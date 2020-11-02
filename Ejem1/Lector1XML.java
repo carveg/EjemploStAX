@@ -1,4 +1,4 @@
-package com.carlos;
+/* package com.carlos; */
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -9,9 +9,10 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-public class Lector1 {
-    public static final String DOCUMENTO_XML = "D:\\Cloud\\Mega\\UFV\\DIS\\2-JSON _ XML\\Projects\\XML\\EjemploXML\\src\\com\\carlos\\parking.xml";
-    public static final String ELEMENTO_PLAZA = "";
+class Lector1 {
+   // public static final String DOCUMENTO_XML = "D:\\Cloud\\Mega\\UFV\\DIS\\2-JSON _ XML\\Projects\\XML\\EjemploXML\\src\\com\\carlos\\parking.xml";
+     static final String DOCUMENTO_XML = "C:\\Users\\X512\\GitProjects\\EjemploStAX_forked\\parking.xml";
+     static final String ELEMENTO_PLAZA = "";
 
     public int numeroDePlazas() throws FileNotFoundException, IOException {
         int numeroPlazas = 0;
