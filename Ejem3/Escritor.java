@@ -19,7 +19,7 @@ public class Escritor {
             fileOutputStream = new FileOutputStream("D:\\Cloud\\Mega\\UFV\\DIS\\src\\parking.xml");
             xmlStreamWriter = xmlOutputFactory.createXMLStreamWriter(fileOutputStream);
 
-            // Mostar el XML con la indentación de líneas y sangrados
+            // Mostar el XML con la indentación de líneas y sangrados (no es obligatorio)
             xmlStreamWriter = new IndentingXMLStreamWriter(xmlStreamWriter);
 
             // Encoding y versión de XML
