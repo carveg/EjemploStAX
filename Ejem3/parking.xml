@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE parking SYSTEM "parking.dtd">
+<!-- Generado mediante StAX -->
+<parking>
+  <plaza id="1">
+    <matricula>AAA-1111</matricula>
+    <propietario>Juan Sánchez</propietario>
+    <telefono>111-88-88</telefono>
+    <vencimiento>04-12-2014</vencimiento>
+  </plaza>
+</parking>
