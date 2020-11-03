@@ -1,0 +1,10 @@
+<!DOCTYPE parking [
+        <!ELEMENT parking (plaza)*>
+        <!ELEMENT plaza (matricula|propietario|telefono|vencimiento)*>
+        <!ATTLIST plaza
+                id CDATA #REQUIRED>
+        <!ELEMENT matricula (#PCDATA)>
+        <!ELEMENT propietario (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT vencimiento (#PCDATA)>
+        ]>
